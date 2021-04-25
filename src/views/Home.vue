@@ -1,5 +1,14 @@
-<template lang=""><div> <h1>Hello I am the Home.vue file</h1> </div></template>
+<template lang="">
+  <div> <h1>Hello I am the Home.vue file</h1> <Header /> </div>
+</template>
+
 <script>
-export default {};
+import Header from "@/components/Header.vue";
+export default {
+  components: {
+    Header,
+  },
+};
 </script>
-<style lang=""></style>
+
+<style scoped lang="scss"></style>
